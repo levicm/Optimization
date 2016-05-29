@@ -1,0 +1,349 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt: <http://www.architexa.com/rdf/jdt#> .
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+
+<http://www.architexa.com/rdf/rse-eclipse#Diagrama de classes.atxa> a atxa-core:reloFile .
+
+atxa:DetailNode atxa-core:detailLevel "1" .
+
+atxa-core:docRoot atxa-core:browseModel "com.architexa.diagrams.relo.jdt/com.architexa.diagrams.relo.jdt.browse.ClassStrucBrowseModel" ;
+	atxa-core:contains _:node1ajs96e1jx473 .
+
+_:node1ajs96e1jx473 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao> ;
+	atxa-core:posX "28" ;
+	atxa-core:posY "19" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao$Solution> , <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao$Fitness> , <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao$Algorithm> .
+
+_:node1ajs96e1jx473 atxa-core:contains _:node1ajs96e1jx480 .
+
+_:node1ajs96e1jx480 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao$Solution> ;
+	atxa-core:posX "37" ;
+	atxa-core:posY "44" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao$Solution> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao$Solution.getCopy()> , <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao$Solution.Solution()> , <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao$Solution.isComplete()> .
+
+_:node1ajs96e1jx480 atxa-core:contains _:node1ajs96e1jx481 .
+
+_:node1ajs96e1jx481 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao$Solution.getCopy()> ;
+	atxa-core:posX "38" ;
+	atxa-core:posY "62" .
+
+_:node1ajs96e1jx480 atxa-core:contains _:node1ajs96e1jx483 .
+
+_:node1ajs96e1jx483 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao$Solution.Solution()> ;
+	atxa-core:posX "38" ;
+	atxa-core:posY "78" .
+
+_:node1ajs96e1jx480 atxa-core:contains _:node1ajs96e1jx482 .
+
+_:node1ajs96e1jx482 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao$Solution.isComplete()> ;
+	atxa-core:posX "38" ;
+	atxa-core:posY "94" .
+
+_:node1ajs96e1jx473 atxa-core:contains _:node1ajs96e1jx474 .
+
+_:node1ajs96e1jx474 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao$Fitness> ;
+	atxa-core:posX "34" ;
+	atxa-core:posY "139" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao$Fitness> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao$Fitness.getResult(Solution,)> , <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao$Fitness.Fitness()> .
+
+_:node1ajs96e1jx474 atxa-core:contains _:node1ajs96e1jx475 .
+
+_:node1ajs96e1jx475 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao$Fitness.getResult(Solution,)> ;
+	atxa-core:posX "35" ;
+	atxa-core:posY "157" .
+
+_:node1ajs96e1jx474 atxa-core:contains _:node1ajs96e1jx476 .
+
+_:node1ajs96e1jx476 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao$Fitness.Fitness()> ;
+	atxa-core:posX "35" ;
+	atxa-core:posY "173" .
+
+_:node1ajs96e1jx473 atxa-core:contains _:node1ajs96e1jx477 .
+
+_:node1ajs96e1jx477 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao$Algorithm> ;
+	atxa-core:posX "38" ;
+	atxa-core:posY "218" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao$Algorithm> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao$Algorithm.Algorithm()> , <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao$Algorithm.run()> .
+
+_:node1ajs96e1jx477 atxa-core:contains _:node1ajs96e1jx478 .
+
+_:node1ajs96e1jx478 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao$Algorithm.Algorithm()> ;
+	atxa-core:posX "39" ;
+	atxa-core:posY "236" .
+
+_:node1ajs96e1jx477 atxa-core:contains _:node1ajs96e1jx479 .
+
+_:node1ajs96e1jx479 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao$Algorithm.run()> ;
+	atxa-core:posX "39" ;
+	atxa-core:posY "252" .
+
+atxa-core:docRoot atxa-core:contains _:node1ajs96e1jx484 .
+
+_:node1ajs96e1jx484 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco> ;
+	atxa-core:posX "26" ;
+	atxa-core:posY "316" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco$ACOAlgorithm> , <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco$AntColony> , <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco$AntColonyEnvironment> , <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco$Ant> .
+
+_:node1ajs96e1jx484 atxa-core:contains _:node1ajs96e1jx485 .
+
+_:node1ajs96e1jx485 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco$ACOAlgorithm> ;
+	atxa-core:posX "32" ;
+	atxa-core:posY "341" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco$ACOAlgorithm> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco$ACOAlgorithm.run()> .
+
+_:node1ajs96e1jx24 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node1ajs96e1jx485 ;
+	rdf:object _:node1ajs96e1jx477 ;
+	atxa-core:bendpoint _:node1ajs96e1jx5666 .
+
+_:node1ajs96e1jx5666 atxa-core:bpLocation "93,289" ;
+	atxa-core:bpIndex "0" .
+
+_:node1ajs96e1jx24 atxa-core:bendpoint _:node1ajs96e1jx5667 .
+
+_:node1ajs96e1jx5667 atxa-core:bpLocation "108,289" ;
+	atxa-core:bpIndex "1" .
+
+_:node1ajs96e1jx485 atxa-core:contains _:node1ajs96e1jx489 .
+
+_:node1ajs96e1jx489 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco$ACOAlgorithm.run()> ;
+	atxa-core:posX "33" ;
+	atxa-core:posY "359" .
+
+_:node1ajs96e1jx484 atxa-core:contains _:node1ajs96e1jx490 .
+
+_:node1ajs96e1jx490 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco$AntColony> ;
+	atxa-core:posX "34" ;
+	atxa-core:posY "386" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco$AntColony> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco$AntColony.buildColony()> , <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco$AntColony.buildSolutions()> , <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco$AntColony.getHive()> .
+
+_:node1ajs96e1jx490 atxa-core:contains _:node1ajs96e1jx491 .
+
+_:node1ajs96e1jx491 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco$AntColony.buildColony()> ;
+	atxa-core:posX "35" ;
+	atxa-core:posY "404" .
+
+_:node1ajs96e1jx490 atxa-core:contains _:node1ajs96e1jx492 .
+
+_:node1ajs96e1jx492 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco$AntColony.buildSolutions()> ;
+	atxa-core:posX "35" ;
+	atxa-core:posY "420" .
+
+_:node1ajs96e1jx490 atxa-core:contains _:node1ajs96e1jx493 .
+
+_:node1ajs96e1jx493 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco$AntColony.getHive()> ;
+	atxa-core:posX "35" ;
+	atxa-core:posY "436" .
+
+_:node1ajs96e1jx484 atxa-core:contains _:node1ajs96e1jx497 .
+
+_:node1ajs96e1jx497 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco$AntColonyEnvironment> ;
+	atxa-core:posX "33" ;
+	atxa-core:posY "523" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco$AntColonyEnvironment> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco$AntColonyEnvironment.depositPheromone(int,int,)> , <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco$AntColonyEnvironment.getPheromone(int,int,)> , <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco$AntColonyEnvironment.evaporateAllPheromones()> .
+
+_:node1ajs96e1jx497 atxa-core:contains _:node1ajs96e1jx3210 .
+
+_:node1ajs96e1jx3210 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco$AntColonyEnvironment.depositPheromone(int,int,)> ;
+	atxa-core:posX "34" ;
+	atxa-core:posY "541" .
+
+_:node1ajs96e1jx497 atxa-core:contains _:node1ajs96e1jx3212 .
+
+_:node1ajs96e1jx3212 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco$AntColonyEnvironment.getPheromone(int,int,)> ;
+	atxa-core:posX "34" ;
+	atxa-core:posY "557" .
+
+_:node1ajs96e1jx497 atxa-core:contains _:node1ajs96e1jx3211 .
+
+_:node1ajs96e1jx3211 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco$AntColonyEnvironment.evaporateAllPheromones()> ;
+	atxa-core:posX "34" ;
+	atxa-core:posY "573" .
+
+_:node1ajs96e1jx484 atxa-core:contains _:node1ajs96e1jx494 .
+
+_:node1ajs96e1jx494 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco$Ant> ;
+	atxa-core:posX "32" ;
+	atxa-core:posY "461" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco$Ant> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco$Ant.buildSolution(AntColonyEnvironment,)> , <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco$Ant.getSolution()> .
+
+_:node1ajs96e1jx494 atxa-core:contains _:node1ajs96e1jx495 .
+
+_:node1ajs96e1jx495 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco$Ant.buildSolution(AntColonyEnvironment,)> ;
+	atxa-core:posX "33" ;
+	atxa-core:posY "479" .
+
+_:node1ajs96e1jx494 atxa-core:contains _:node1ajs96e1jx496 .
+
+_:node1ajs96e1jx496 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.aco$Ant.getSolution()> ;
+	atxa-core:posX "33" ;
+	atxa-core:posY "495" .
+
+atxa-core:docRoot atxa-core:contains _:node1ajs96e1jx3213 .
+
+_:node1ajs96e1jx3213 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.hc> ;
+	atxa-core:posX "327" ;
+	atxa-core:posY "314" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.hc> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.hc$Tweaker> , <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.hc$HillClimbingAlgorithm> .
+
+_:node1ajs96e1jx3213 atxa-core:contains _:node1ajs96e1jx3214 .
+
+_:node1ajs96e1jx3214 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.hc$Tweaker> ;
+	atxa-core:posX "334" ;
+	atxa-core:posY "395" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.hc$Tweaker> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.hc$Tweaker.tweak(Solution,)> .
+
+_:node1ajs96e1jx3214 atxa-core:contains _:node1ajs96e1jx3215 .
+
+_:node1ajs96e1jx3215 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.hc$Tweaker.tweak(Solution,)> ;
+	atxa-core:posX "335" ;
+	atxa-core:posY "413" .
+
+_:node1ajs96e1jx3213 atxa-core:contains _:node1ajs96e1jx3216 .
+
+_:node1ajs96e1jx3216 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.hc$HillClimbingAlgorithm> ;
+	atxa-core:posX "333" ;
+	atxa-core:posY "339" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.hc$HillClimbingAlgorithm> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.hc$HillClimbingAlgorithm.run()> .
+
+_:node1ajs96e1jx501 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node1ajs96e1jx3216 ;
+	rdf:object _:node1ajs96e1jx477 ;
+	atxa-core:bendpoint _:node1ajs96e1jx5668 .
+
+_:node1ajs96e1jx5668 atxa-core:bpLocation "413,289" ;
+	atxa-core:bpIndex "0" .
+
+_:node1ajs96e1jx501 atxa-core:bendpoint _:node1ajs96e1jx5669 .
+
+_:node1ajs96e1jx5669 atxa-core:bpLocation "108,289" ;
+	atxa-core:bpIndex "1" .
+
+_:node1ajs96e1jx3216 atxa-core:contains _:node1ajs96e1jx3219 .
+
+_:node1ajs96e1jx3219 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.hc$HillClimbingAlgorithm.run()> ;
+	atxa-core:posX "334" ;
+	atxa-core:posY "357" .
+
+atxa-core:docRoot atxa-core:contains _:node1ajs96e1jx5670 .
+
+_:node1ajs96e1jx5670 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.sprp> ;
+	atxa-core:posX "329" ;
+	atxa-core:posY "18" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.sprp> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.sprp$SPRPRandomPathFinder> , <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.sprp$SPRPFitness> , <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.sprp$SPRPSolution> , <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.sprp$Network> .
+
+_:node1ajs96e1jx5670 atxa-core:contains _:node1ajs96e1jx5671 .
+
+_:node1ajs96e1jx5671 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.sprp$SPRPRandomPathFinder> ;
+	atxa-core:posX "335" ;
+	atxa-core:posY "43" .
+
+_:node1ajs96e1jx5670 atxa-core:contains _:node1ajs96e1jx5672 .
+
+_:node1ajs96e1jx5672 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.sprp$SPRPFitness> ;
+	atxa-core:posX "335" ;
+	atxa-core:posY "223" .
+
+_:node1ajs96e1jx3913 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node1ajs96e1jx5672 ;
+	rdf:object _:node1ajs96e1jx474 ;
+	atxa-core:bendpoint _:node1ajs96e1jx5673 .
+
+_:node1ajs96e1jx5673 atxa-core:bpLocation "387,210" ;
+	atxa-core:bpIndex "0" .
+
+_:node1ajs96e1jx3913 atxa-core:bendpoint _:node1ajs96e1jx5674 .
+
+_:node1ajs96e1jx5674 atxa-core:bpLocation "131,210" ;
+	atxa-core:bpIndex "1" .
+
+_:node1ajs96e1jx5670 atxa-core:contains _:node1ajs96e1jx5675 .
+
+_:node1ajs96e1jx5675 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.sprp$SPRPSolution> ;
+	atxa-core:posX "336" ;
+	atxa-core:posY "166" .
+
+_:node1ajs96e1jx3912 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node1ajs96e1jx5675 ;
+	rdf:object _:node1ajs96e1jx480 ;
+	atxa-core:bendpoint _:node1ajs96e1jx5676 .
+
+_:node1ajs96e1jx5676 atxa-core:bpLocation "392,131" ;
+	atxa-core:bpIndex "0" .
+
+_:node1ajs96e1jx3912 atxa-core:bendpoint _:node1ajs96e1jx5677 .
+
+_:node1ajs96e1jx5677 atxa-core:bpLocation "120,131" ;
+	atxa-core:bpIndex "1" .
+
+_:node1ajs96e1jx5670 atxa-core:contains _:node1ajs96e1jx5678 .
+
+_:node1ajs96e1jx5678 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#br.ufs.procc.otimizacao.sprp$Network> ;
+	atxa-core:posX "335" ;
+	atxa-core:posY "86" .
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt: <http://www.architexa.com/rdf/jdt#> .
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+
+<http://www.architexa.com/rdf/rse-eclipse#Diagrama de classes.atxa> a atxa-core:reloFile ;
+	atxa-core:contains _:node1ajs96e1jx481 , _:node1ajs96e1jx483 , _:node1ajs96e1jx482 , _:node1ajs96e1jx480 , _:node1ajs96e1jx475 , _:node1ajs96e1jx476 , _:node1ajs96e1jx474 , _:node1ajs96e1jx478 , _:node1ajs96e1jx479 , _:node1ajs96e1jx477 , _:node1ajs96e1jx473 , _:node1ajs96e1jx489 , _:node1ajs96e1jx485 , _:node1ajs96e1jx491 , _:node1ajs96e1jx492 , _:node1ajs96e1jx493 , _:node1ajs96e1jx490 , _:node1ajs96e1jx3210 , _:node1ajs96e1jx3212 , _:node1ajs96e1jx3211 , _:node1ajs96e1jx497 , _:node1ajs96e1jx495 , _:node1ajs96e1jx496 , _:node1ajs96e1jx494 , _:node1ajs96e1jx484 , _:node1ajs96e1jx3215 , _:node1ajs96e1jx3214 , _:node1ajs96e1jx3219 , _:node1ajs96e1jx3216 , _:node1ajs96e1jx3213 , _:node1ajs96e1jx5671 , _:node1ajs96e1jx5672 , _:node1ajs96e1jx5675 , _:node1ajs96e1jx5678 , _:node1ajs96e1jx5670 , atxa-core:docRoot , _:node1ajs96e1jx481 , _:node1ajs96e1jx483 , _:node1ajs96e1jx482 , _:node1ajs96e1jx480 , _:node1ajs96e1jx475 , _:node1ajs96e1jx476 , _:node1ajs96e1jx474 , _:node1ajs96e1jx478 , _:node1ajs96e1jx479 , _:node1ajs96e1jx477 , _:node1ajs96e1jx473 , _:node1ajs96e1jx489 , _:node1ajs96e1jx485 , _:node1ajs96e1jx491 , _:node1ajs96e1jx492 , _:node1ajs96e1jx493 , _:node1ajs96e1jx490 , _:node1ajs96e1jx3210 , _:node1ajs96e1jx3212 , _:node1ajs96e1jx3211 , _:node1ajs96e1jx497 , _:node1ajs96e1jx495 , _:node1ajs96e1jx496 , _:node1ajs96e1jx494 , _:node1ajs96e1jx484 , _:node1ajs96e1jx3215 , _:node1ajs96e1jx3214 , _:node1ajs96e1jx3219 , _:node1ajs96e1jx3216 , _:node1ajs96e1jx3213 , _:node1ajs96e1jx5671 , _:node1ajs96e1jx5672 , _:node1ajs96e1jx5675 , _:node1ajs96e1jx5678 , _:node1ajs96e1jx5670 , atxa-core:docRoot , _:node1ajs96e1jx24 , _:node1ajs96e1jx501 , _:node1ajs96e1jx3913 , _:node1ajs96e1jx3912 , _:node1ajs96e1jx24 , _:node1ajs96e1jx501 , _:node1ajs96e1jx3913 , _:node1ajs96e1jx3912 .
+
